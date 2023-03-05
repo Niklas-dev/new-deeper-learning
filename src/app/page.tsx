@@ -1,3 +1,4 @@
+"use client";
 import Factors from "@/components/pages/Factors/Factors";
 import HealthFactors from "@/components/pages/HealthFactors/HealthFactors";
 import Landing from "@/components/pages/Landing/Landing";
@@ -9,7 +10,7 @@ import WHOReview from "@/components/pages/WHOReview/WHOReview";
 
 export default function Home() {
   return (
-    <div className=" text-black overflow-y-auto min-h-[3000px] ">
+    <main className=" text-black overflow-y-scroll min-h-[3000px] ">
       <Landing />
       <TwoModels />
       <WHOReview />
@@ -18,6 +19,6 @@ export default function Home() {
       <HealthFactors />
       <Factors />
       <SalutogenesisRating />
-    </div>
+    </main>
   );
 }
