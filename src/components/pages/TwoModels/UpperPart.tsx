@@ -2,6 +2,7 @@ import React from "react";
 import FadeInSection from "../../FadeInSection";
 import { Zilla_Slab, Roboto, Oswald, Anton } from "@next/font/google";
 import { Player } from "@lottiefiles/react-lottie-player";
+import LottiePlayer from "@/components/LottiePlayer";
 
 const zilla = Zilla_Slab({
   subsets: ["latin"],
@@ -39,12 +40,12 @@ export default function UpperPart() {
         </FadeInSection>
         <FadeInSection>
           <div className="">
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px] "
               autoplay
               loop
               src="https://assets6.lottiefiles.com/packages/lf20_zdjUpn36hX.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
       </div>

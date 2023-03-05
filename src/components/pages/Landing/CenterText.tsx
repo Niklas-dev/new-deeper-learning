@@ -1,6 +1,7 @@
 import React from "react";
 import { Zilla_Slab, Roboto, Oswald, Anton } from "@next/font/google";
 import { Player } from "@lottiefiles/react-lottie-player";
+import LottiePlayer from "@/components/LottiePlayer";
 const zilla = Zilla_Slab({
   subsets: ["latin"],
   weight: "700",
@@ -26,21 +27,21 @@ export default function CenterText() {
           </button>
         </div>
         <div className="md:hidden pt-10">
-          <Player
-            className="w-[200px] h-[200px]"
+          <LottiePlayer
+            classes="w-[200px] h-[200px]"
             autoplay
             loop
             src="https://assets6.lottiefiles.com/packages/lf20_xgdvjjxc.json"
-          ></Player>
+          />
         </div>
       </div>
       <div className="md:flex hidden">
-        <Player
-          className="w-30 h-30 lg:w-[28rem] lg:h-[28rem] "
+        <LottiePlayer
+          classes="w-30 h-30 lg:w-[28rem] lg:h-[28rem] "
           autoplay
           loop
           src="https://assets6.lottiefiles.com/packages/lf20_xgdvjjxc.json"
-        ></Player>
+        />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import FadeInSection from "../../FadeInSection";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Zilla_Slab, Roboto, Oswald, Anton } from "@next/font/google";
+import LottiePlayer from "@/components/LottiePlayer";
 
 const oswald_bold = Oswald({ subsets: ["latin"], weight: "700" });
 const oswald = Oswald({ subsets: ["latin"], weight: "400" });
@@ -40,12 +41,12 @@ export default function Factors() {
                 and eat a balanced diet to improve our overall health levels.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
-              autoplay
-              loop
+            <LottiePlayer
               src="https://assets7.lottiefiles.com/packages/lf20_hogyzwkh.json"
-            ></Player>
+              loop
+              autoplay
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            />
           </div>
         </FadeInSection>
 
@@ -70,12 +71,12 @@ export default function Factors() {
                 lifestyle and protect your health.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
               autoplay
               loop
               src="https://assets2.lottiefiles.com/packages/lf20_ocGoFt.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
 
@@ -100,12 +101,12 @@ export default function Factors() {
                 avoiding polluting environmental factors.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
               autoplay
               loop
               src="https://assets2.lottiefiles.com/packages/lf20_cs0ptqy9.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
 
@@ -128,12 +129,12 @@ export default function Factors() {
                 health.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
               autoplay
               loop
               src="https://assets8.lottiefiles.com/packages/lf20_fCKkXdwO3V.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
 
@@ -155,12 +156,12 @@ export default function Factors() {
                 health care.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
               autoplay
               loop
               src="https://assets7.lottiefiles.com/private_files/lf30_oOGQFY.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
         <FadeInSection>
@@ -180,12 +181,12 @@ export default function Factors() {
                 improves people&apos;s quality of life and survival.
               </p>
             </div>
-            <Player
-              className="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
+            <LottiePlayer
+              classes="w-[470px] h-[200px] md:w-[350px] md:h-[350px]   lg:w-[400px] lg:h-[400px] xl:w-[400px] xl:h-[400px] "
               autoplay
               loop
               src="https://assets2.lottiefiles.com/private_files/lf30_4FGi6N.json"
-            ></Player>
+            />
           </div>
         </FadeInSection>
       </div>
