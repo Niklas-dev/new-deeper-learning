@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import FadeInSection from "../../FadeInSection";
 import { Zilla_Slab, Roboto, Oswald, Anton } from "@next/font/google";

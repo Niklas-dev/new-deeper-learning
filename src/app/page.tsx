@@ -9,7 +9,7 @@ import WHOReview from "@/components/pages/WHOReview/WHOReview";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden text-black overflow-y-auto min-h-[3000px] ">
+    <div className=" text-black overflow-y-auto min-h-[3000px] ">
       <Landing />
       <TwoModels />
       <WHOReview />
