@@ -10,7 +10,10 @@ import WHOReview from "@/components/pages/WHOReview/WHOReview";
 
 export default function Home() {
   return (
-    <main className=" text-black overflow-y-scroll min-h-[3000px] ">
+    <main
+      style={{ overflowX: "hidden" }}
+      className=" text-black overflow-y-scroll min-h-[3000px] flex flex-col"
+    >
       <Landing />
       <TwoModels />
       <WHOReview />
