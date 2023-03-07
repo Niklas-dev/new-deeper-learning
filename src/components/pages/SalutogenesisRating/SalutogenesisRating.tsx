@@ -23,7 +23,7 @@ export default function Landing() {
   const [currentQuestion, setCurrentQuestion] = useState(-1);
 
   return (
-    <div className="flex justify-center h-screen items-center bg-white min-h-[500px] md:min-h-[1050px] pt-10 overflow-y-visible">
+    <div className="flex justify-center h-screen items-center bg-white min-h-[500px] md:min-h-[1050px] pt-10">
       <div className="max-w-[1920px]  max-h-[1080px] min-h-[800px]   h-screen w-screen md:px-20 lg:px-40 pt-10 px-12">
         <RatingHeadline />
         <div className="pt-4 ">

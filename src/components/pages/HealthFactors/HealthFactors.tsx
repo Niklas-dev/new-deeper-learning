@@ -17,7 +17,7 @@ const anton = Anton({ subsets: ["latin"], weight: "400" });
 
 export default function HealthFactors() {
   return (
-    <div className="flex justify-center items-center bg-white min-h-[500px] md:min-h-[750px] overflow-y-visible">
+    <div className="flex justify-center items-center bg-white min-h-[500px] md:min-h-[750px]">
       <div className="max-w-[1920px]   md:min-h-[800px]   w-screen md:px-20 lg:px-40 md:py-40 lg:py-12 xl:py-28 px-12 ">
         <HealthFactorsHeadline />
         <GeneralInfo />
