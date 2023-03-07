@@ -1,4 +1,3 @@
-"use client";
 import Factors from "@/components/pages/Factors/Factors";
 import HealthFactors from "@/components/pages/HealthFactors/HealthFactors";
 import Landing from "@/components/pages/Landing/Landing";
