@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main
       style={{ overflowX: "hidden" }}
-      className=" text-black overflow-y-scroll min-h-[3000px] flex flex-col"
+      className="flex flex-col h-screen overflow-y-scroll"
     >
       <SectionWrapper>
         <Landing />
