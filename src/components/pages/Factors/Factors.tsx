@@ -30,15 +30,13 @@ export default function Factors() {
               <p
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
-                Our genes play an important role in determining our risk for
+                Your genes play an important role in determining your risk for
                 certain diseases and conditions. There are many genetic diseases
-                that are caused by a change or mutation in a single gene, such
-                as cystic fibrosis or sickle cell anaemia. But more complex
-                diseases such as diabetes, cancer or heart disease also have a
-                genetic influence. Although we cannot change our genes, we can
-                still take steps to reduce our risk of these diseases. For
-                example, we can maintain a healthy lifestyle, exercise regularly
-                and eat a balanced diet to improve our overall health levels.
+                that are caused by a change or mutation in a single gene. But
+                more complex diseases such as diabetes, cancer or heart disease
+                also have a genetic influence. Although you cannot change your
+                genes, you can still take steps to reduce your risk of these
+                diseases with a good Lifestyle.
               </p>
             </div>
             <LottiePlayer
@@ -61,14 +59,15 @@ export default function Factors() {
               <p
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
-                Our daily choices have a significant impact on our health. A
-                healthy diet, sufficient physical activity, adequate sleep
-                habits and reduced alcohol and tobacco consumption can help
-                reduce the risk of heart disease, cancer and other health
-                problems. An unhealthy lifestyle, on the other hand, can lead to
-                obesity, diabetes and other serious health problems. It is
-                important to make conscious choices to promote a healthy
-                lifestyle and protect your health.
+                Your daily choices have a significant impact on your health. A
+                healthy diet, enough physical activity, proper sleeping habits
+                and reduced alcohol and tobacco consumption can help reduce the
+                risk of heart disease, cancer and other health problems. But
+                everything that is considered healthy should always be
+                considered carefully. An unhealthy lifestyle, on the other hand,
+                can lead to obesity, diabetes and other serious health problems.
+                It is important to make conscious choices to contribute to a
+                healthy lifestyle and protect your health.
               </p>
             </div>
             <LottiePlayer
@@ -91,14 +90,14 @@ export default function Factors() {
               <p
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
-                The environment in which we live and work can affect our health.
-                Air pollution, polluted water and unhealthy working conditions
-                can lead to a variety of health problems, from respiratory
-                diseases to cancer. It is important to ensure that the
-                environment we live in is safe and healthy. This can be achieved
-                through government rules and regulations as well as individual
-                efforts, such as buying environmentally friendly products or
-                avoiding polluting environmental factors.
+                The environment in which you live and work can affect your
+                health. Air pollution, polluted water and unhealthy working
+                conditions can lead to a variety of health problems, from
+                breathing problems to cancer. It is important to ensure that the
+                environment you live in is safe and healthy. This can be
+                achieved through government rules and regulations as well as
+                individual efforts, such as buying environmentally friendly
+                products or avoiding polluting environmental factors.
               </p>
             </div>
             <LottiePlayer
@@ -121,9 +120,9 @@ export default function Factors() {
               <p
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
-                Mental health can have a significant impact on our physical
+                Mental health can have a significant impact on your physical
                 health. Stress, anxiety, depression and other mental illnesses
-                can affect our immune system and increase the risk of physical
+                can affect your immune system and increase the risk of physical
                 illness. It is important to look after your own mental health
                 and seek support and treatment where necessary to ensure optimal
                 health.
@@ -150,10 +149,10 @@ export default function Factors() {
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
                 Factors such as education, income, employment, access to
-                healthcare and social support can all have an impact on our
+                healthcare and social support can all have an impact on your
                 health. People with higher education and higher income tend to
                 have better health prospects and usually have better access to
-                health care.
+                health care. Social support and strong social networks can
               </p>
             </div>
             <LottiePlayer
@@ -175,10 +174,14 @@ export default function Factors() {
               <p
                 className={`${oswald.className} text-center md:text-start text-lg md:text-2xl pt-4 text-[#717171]`}
               >
-                Medical care is an important factor in the health of an
-                individual and a society as a whole. Access to quality medical
-                care can help prevent or detect and treat diseases early, which
-                improves people&apos;s quality of life and survival.
+                Good medical care can save lives and help people stay healthy or
+                get better faster. Regular check-ups, vaccinations and prompt
+                diagnosis and treatment of diseases can help reduce the risk of
+                serious complications. However, it is also important to note
+                that overuse of medical services and overuse of medicines and
+                other medical procedures can also have negative effects on
+                health. Balanced use of medical care, based on individual needs
+                and health risks, is therefore crucial for maintaining health.
               </p>
             </div>
             <LottiePlayer
